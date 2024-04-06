@@ -50,7 +50,7 @@ public class StudentController {
 
 
         } catch (Exception exception) {
-            response = new ResponseEntity("Student data is not available", HttpStatus.INTERNAL_SERVER_ERROR);
+            response = new ResponseEntity("Student data are not available", HttpStatus.INTERNAL_SERVER_ERROR);
         }
         return response;
     }
